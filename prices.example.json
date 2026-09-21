@@ -1,0 +1,9 @@
+{
+  "_note": "USD per 1M tokens, on-demand, read from https://aws.amazon.com/bedrock/pricing/ . Fill in every model you will call. null = the guard refuses to run it.",
+  "price_date": "YYYY-MM-DD",
+  "total_cap_usd": 100,
+  "models": {
+    "openai.gpt-oss-120b-1:0": {"in_per_mtok": null, "out_per_mtok": null},
+    "openai.gpt-oss-20b-1:0":  {"in_per_mtok": null, "out_per_mtok": null}
+  }
+}

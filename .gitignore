@@ -1,0 +1,7 @@
+usage_log.jsonl
+usage_log*.jsonl
+*.lock
+prices.json
+__pycache__/
+*.pyc
+.env

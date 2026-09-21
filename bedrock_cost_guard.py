@@ -4,7 +4,7 @@
 Usage as a library (recommended - route every Bedrock call through it):
 
     from bedrock_cost_guard import Guard
-    g = Guard(session="ocelot-benchmark-01", cap_usd=25, profile="efs")
+    g = Guard(session="benchmark-01", cap_usd=25, profile="default")
     g.plan("openai.gpt-oss-120b-1:0", calls=850, in_tokens=3000, out_tokens=600)   # prints estimate, asks y/N
     text = g.converse("openai.gpt-oss-120b-1:0", "prompt here", max_tokens=600)
 
